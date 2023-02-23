@@ -1,0 +1,39 @@
+.table-responsive{
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+#title, #description{
+    text-align: center;
+}
+
+.pagination a {
+    color: rgb(115, 141, 175);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color:rgb(33, 101, 190);
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #8ba5bd;
+  color: white;}
+  .table-borderd, td, th {
+    border: 1px solid rgb(33, 101, 190);
+    border-spacing: 0;
+  }
+  .table{
+    width:100%;
+  }
+  thead {
+    background-color:rgb(33, 101, 190);
+    color: white;
+  }
